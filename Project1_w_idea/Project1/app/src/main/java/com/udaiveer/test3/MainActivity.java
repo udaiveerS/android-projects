@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    private boolean toggleImage = true;
+    private boolean toggleImage = false;
 
     public void clickFunction(View view) {
 
