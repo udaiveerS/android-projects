@@ -5,6 +5,8 @@ Project1 has one button that toggles between images. The images are being proces
 ###2. CurrencyConverter 
 Takes an input of type double that is dollars and converts it to an EUR and display it as a Toast 
 ###3. Tick Tack Connect 
-Is a basic Tick Tack Toe game that works like connect 4 where the tokens drop from the top. Dectects which player has
-won and also dectects Draw game. You can also restart the game with Play again button. 
-![Alt text](http://i.imgur.com/RfI4wPA.png)
+Is a basic Tick-Tack Toe game that works like connect 4 where the tokens drop from the top. Detects which player has won and also detects Draw game. You can also restart the game with Play again button. 
+
+<p align="center">
+<img src="http://i.imgur.com/RfI4wPA.png" left="500px" height="500" width="300"/>
+</p>
