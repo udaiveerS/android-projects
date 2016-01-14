@@ -20,7 +20,7 @@
         android:layout_marginBottom="42dp"
         android:columnCount="3"
         android:rowCount="3"
-        android:id="@+id/gridLayout">
+        android:id="@+id/grid">
 
         <ImageView
             android:layout_width="70dp"
@@ -165,4 +165,34 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:background="#ece7dd"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:alpha=".95"
+        android:visibility="invisible"
+        android:id="@+id/linear">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/winnerMessage"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Again"
+            android:id="@+id/playAgain"
+            android:layout_gravity="center_horizontal"
+            android:onClick="playAgain" />
+    </LinearLayout>
+
 </RelativeLayout>
